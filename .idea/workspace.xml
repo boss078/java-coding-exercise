@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43263500-401c-4c79-a4f9-e484edc9f07f" name="Default Changelist" comment="" />
+    <list default="true" id="5ba3b1fa-ddb8-4239-b9fe-756faa13732a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,24 +26,39 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jce" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JavaCodingExercise" />
-  </component>
-  <component name="ProjectId" id="1V4R4xr7g2CHqaz2wLAYuq4rmNe" />
+  <component name="ProjectId" id="1VBtupUJoBYt2EkLTjWOipLgSYf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -56,15 +71,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea Projects\JavaCodeExample\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="JceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="JavaCodeExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="jce.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.boss078.jce.AppStarter" />
       <method v="2">
@@ -77,17 +90,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -99,12 +102,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43263500-401c-4c79-a4f9-e484edc9f07f" name="Default Changelist" comment="" />
-      <created>1576510193519</created>
+      <changelist id="5ba3b1fa-ddb8-4239-b9fe-756faa13732a" name="Default Changelist" comment="" />
+      <created>1576738541020</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576510193519</updated>
-      <workItem from="1576510201182" duration="5147000" />
+      <updated>1576738541020</updated>
+      <workItem from="1576738551795" duration="938000" />
+      <workItem from="1576756263512" duration="6347000" />
+      <workItem from="1577451256106" duration="12257000" />
     </task>
     <servers />
   </component>
@@ -112,49 +117,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576582132241">
+    <state x="361" y="90" key="#SQL_Dialects" timestamp="1576760112515">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="454" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1576582132241" />
-    <state x="465" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576510998056">
+    <state x="361" y="90" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1576760112515" />
+    <state x="302" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577453093511">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1576510998056" />
-    <state width="1024" height="114" key="GridCell.Tab.0.bottom" timestamp="1576516275215">
+    <state x="302" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1577453093511" />
+    <state x="465" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576756929561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576516275215" />
-    <state width="1024" height="114" key="GridCell.Tab.0.center" timestamp="1576516275215">
+    <state x="465" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1576756929561" />
+    <state x="549" y="186" key="FileChooserDialogImpl" timestamp="1577453053073">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576516275215" />
-    <state width="1024" height="114" key="GridCell.Tab.0.left" timestamp="1576516275215">
+    <state x="549" y="186" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1577453053073" />
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576516275215" />
-    <state width="1024" height="114" key="GridCell.Tab.0.right" timestamp="1576516275215">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576516275215" />
-    <state width="1024" height="114" key="GridCell.Tab.1.bottom" timestamp="1576516275216">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576516275216" />
-    <state width="1024" height="114" key="GridCell.Tab.1.center" timestamp="1576516275216">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576516275216" />
-    <state width="1024" height="114" key="GridCell.Tab.1.left" timestamp="1576516275216">
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.1.bottom" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576516275216" />
-    <state width="1024" height="114" key="GridCell.Tab.1.right" timestamp="1576516275216">
+    <state width="1493" height="199" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.1.center" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1024" height="114" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576516275216" />
-    <state x="349" y="175" key="IDE.errors.dialog" timestamp="1576510708428">
+    <state width="1493" height="199" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.1.left" timestamp="1577471746054">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="349" y="175" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1576510708428" />
+    <state width="1493" height="199" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
+    <state width="1493" height="199" key="GridCell.Tab.1.right" timestamp="1577471746054">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="199" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1577471746054" />
   </component>
 </project>
