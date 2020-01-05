@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="row justify-content-md-center">
+        <span class="col-md-auto" th:text="'Advertiser №' + ${advertiser.getId()}"></span>
+    </h2>
+    <br>
+    <h3 class="row justify-content-md-center">
+        <span th:text="'Name: &#34' + ${advertiser.getName()} + '&#34'"></span>
+        <br>                        
+        <span th:text="'Contact name: &#34' + ${advertiser.getContactName()} + '&#34'"></span>
+        <br>
+        <span th:text="'Credit limit: ' + ${advertiser.getCreditLimit()}"></span>
+    </h3>
+</body>
+</html>

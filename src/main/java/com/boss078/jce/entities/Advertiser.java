@@ -20,4 +20,31 @@ public class Advertiser {
     @Column(name = "CREDIT_LIMIT")
     private float creditLimit;
 
+    public void setContactName(String contactName) {
+        this.contactName = contactName;
+    }
+
+    public void setCreditLimit(float creditLimit) {
+        this.creditLimit = creditLimit;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getContactName() {
+        return contactName;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public float getCreditLimit() {
+        return creditLimit;
+    }
 }

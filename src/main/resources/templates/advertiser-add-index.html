@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2 class="row justify-content-md-center">
+    <span class="col-md-auto" th:text="'Adding new advertiser'"></span>
+</h2>
+<br>
+<form method="post" action="#" th:action="@{/api/advertiser/add}" th:object="${advertiser}">
+    <h3 class="form-group row justify-content-md-left offset-md-1 w-75">
+        <label>Name of advertiser:</label>
+        <input class="form-control" type="text" placeholder="Enter the name" th:field="*{name}">
+        <label>Contact name of advertiser:</label>
+        <input class="form-control" type="text" placeholder="Enter the contact name" th:field="*{contactName}">
+        <label>Credit limit of advertiser:</label>
+        <input class="form-control" type="number" placeholder="" th:field="*{creditLimit}">
+        <br>
+        <input type="submit" class="btn btn-outline-success" value="Create new advertiser">
+    </h3>
+</form>
+</body>
+</html>
